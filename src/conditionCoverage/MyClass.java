@@ -12,7 +12,7 @@ package conditionCoverage;
 public class MyClass {
 
 //Equivalent to (6 branches)
-//	if (a = -1 ){
+//	if (a == -1 ){
 //		if ( b == -1 ){
 //			if ( c == -1 ){
 //				

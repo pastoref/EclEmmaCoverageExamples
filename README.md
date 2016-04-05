@@ -12,16 +12,16 @@ In Java "compound conditions" are translated into code where the basic condition
 
 In practice the condition 
 
-"if ( a == -1 && b == -1 && c == -1 ){
-return true;
-} else {
-return false;
-}
+	if ( a == -1 && b == -1 && c == -1 ){
+		return true;
+	} else {
+		return false;
+	}
 
 at the bytecode level, will be equivalent to the following
 
 
-	if (a = -1 ){
+	if (a == -1 ){
 		if ( b == -1 ){
 			if ( c == -1 ){
 				return true;
