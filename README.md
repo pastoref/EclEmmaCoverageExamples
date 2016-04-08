@@ -68,5 +68,5 @@ However, in the case the compiler does not translate a compound condition this w
 
 
  
- For questions:
+For questions:
  pastore@disco.unimib.it
